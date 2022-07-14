@@ -14,12 +14,6 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
 		super.viewDidLoad()
     self.contentsLabel.textColor = .yellow
-    }
-	
-	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-		if let settingViewController = segue.destination as? SettingViewController {
-			settingViewController.delegate = self
-		}
-	}
+  }
 }
 
